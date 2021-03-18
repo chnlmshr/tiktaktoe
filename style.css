@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: #121212;
+}
+
+.status {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 20px;
+  color: #8300fd;
+}
+
+.winning {
+  color: gold;
+}
+
+.losing {
+  color: silver;
+}
+
+.player-X,
+.player-O {
+  padding-top: 50px;
+  text-align: center;
+  color: #cfcfcf;
+  position: absolute;
+  top: 150px;
+  min-width: 200px;
+  min-height: 400px;
+  background-color: #272727;
+}
+
+.turn {
+  box-shadow: 5px 5px 30px 2px #7700ff;
+}
+
+.player-X {
+  left: 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.player-O {
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.score {
+  padding-top: 30px;
+  color: silver;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.canvas {
+  min-height: 500px;
+  border-radius: 10px;
+  margin: 80px 25%;
+  box-shadow: 5px 5px 50px 10px #00ff95;
+  padding: 20px 20px;
+  background-color: #272727;
+  color: #272727;
+}
+
+.active {
+  color: silver;
+}
+
+.row-1,
+.row-2 {
+  min-height: 160px;
+  border-bottom: #fff solid 5px;
+  border-radius: 5px;
+}
+
+.row-3 {
+  min-height: 160px;
+  border-radius: 5px;
+}
+
+.col-1,
+.col-2 {
+  font-size: 100px;
+  text-align: center;
+  display: inline-block;
+  min-width: 32%;
+  min-height: 155px;
+  border-right: #fff solid 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+.col-3 {
+  font-size: 100px;
+  text-align: center;
+  display: inline-block;
+  min-width: 31%;
+  min-height: 155px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding-top: 15px;
+}

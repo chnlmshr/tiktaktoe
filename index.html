@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>tiktaktoe</title>
+  </head>
+  <body>
+    <div class="player-X turn">
+      <h2>Player X</h2>
+      <div class="status">T</div>
+      <p class="score">Score: 0</p>
+    </div>
+    <div class="canvas">
+      <div class="row-1">
+        <div class="col-1" onclick="setActive(event);">T</div>
+        <div class="col-2" onclick="setActive(event);">T</div>
+        <div class="col-3" onclick="setActive(event);">T</div>
+      </div>
+      <div class="row-2">
+        <div class="col-1" onclick="setActive(event);">T</div>
+        <div class="col-2" onclick="setActive(event);">T</div>
+        <div class="col-3" onclick="setActive(event);">T</div>
+      </div>
+      <div class="row-3">
+        <div class="col-1" onclick="setActive(event);">T</div>
+        <div class="col-2" onclick="setActive(event);">T</div>
+        <div class="col-3" onclick="setActive(event);">T</div>
+      </div>
+    </div>
+    <div class="player-O">
+      <h2>Player O</h2>
+      <div class="status">T</div>
+      <p class="score">Score: 0</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
